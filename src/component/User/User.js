@@ -3,7 +3,7 @@ import { AuthService } from '../../services/Auth';
 import PropTypes from 'prop-types';
 import {withRouter} from 'react-router-dom';
 
-export class User extends Component {
+class User extends Component {
     auth;
     constructor(props){
         super(props);
@@ -21,6 +21,7 @@ export class User extends Component {
             dropdownToggle: false,
             loginStatus: this.auth.getLoginStatus()
         })
+        console.log(this.props);
         window.location.href = "/login";
     }
     handleDropdown = () =>{
@@ -51,4 +52,4 @@ User.propType = {
     loginStatus: PropTypes.bool,
     dropdownToggle: PropTypes.bool
 }
-withRouter(User)
+export default withRouter(User)

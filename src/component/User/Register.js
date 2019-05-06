@@ -39,9 +39,9 @@ export class Register extends React.Component{
         console.log(this.state);
         this.authService.register({...this.state})
         .then((res)=>{
-            console.log(this.props);
+            console.log(res, this.props);
             if(res.status === 1){
-                this.props.history.push('/', {overlay: true})
+                this.props.history.push('/')
             }
             else{
                 this.setState({

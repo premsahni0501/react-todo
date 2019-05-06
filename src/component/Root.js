@@ -6,7 +6,7 @@ import '../App.css';
 import { Brand } from './Brand';
 import { AddNewTodo } from './AddNewTodo';
 import { Todos } from './Todos';
-import { User } from './User/User';
+import User from './User/User';
 import { AuthService } from '../services/Auth';
 
 export class Root extends React.Component {

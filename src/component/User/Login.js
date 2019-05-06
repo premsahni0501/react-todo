@@ -35,7 +35,7 @@ export class Login extends Component {
         .then((res)=>{
             console.log(this.props);
             if(res.status === 1){
-                this.props.history.push('/', {overlay: true})
+                this.props.history.push('/')
             }
             else{
                 this.setState({

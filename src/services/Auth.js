@@ -35,7 +35,8 @@ export class AuthService{
                     if(data.password === data.confirmPassword){
                         const newUser = { userId: uuid(), userName: data.userName, password: data.password};
                         localStorage.setItem('userId', newUser.userId);
-                        this.userData.push(newUser)
+                        this.userData.push(newUser);
+                        console.log(this.userData);
                         resolve({ status: 1, data: newUser, msg: 'Registration successful' });
                     }
                     else{
@@ -59,7 +60,7 @@ export class AuthService{
     getLoginStatus() {
         const userId = this.getUserId();
         const foundUserData = this.userData.filter(item=>item.userId === userId);
-        console.log(foundUserData, this.userData, userId);
+        console.log(foundUserData, userId);
         return foundUserData.length > 0;
     }
     logout(){
