@@ -32,7 +32,6 @@ class User extends Component {
         }
     }
     render(){
-        console.log(this.state.userData);
         return this.state.loginStatus?(
             <div className="dropdown userDropdown dropleft">
                 <button className="btn btn-primary" type="button" 
