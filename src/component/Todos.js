@@ -1,16 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {TodoItem} from './TodoItem';
+import TodoItem from './TodoItem';
 
 export class Todos extends React.Component{
-    constructor(props){
-        super(props);
-        this.state = {
-            userId: this.props.userId,
-            userData: null
-        }
-        console.log(this.state.userId);
+    state = {
+        userId: this.props.userId,
+        userData: null
     }
     render(){
         return (
