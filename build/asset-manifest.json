@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.b44a4e0c.chunk.css",
-    "main.js": "/static/js/main.79cbd5df.chunk.js",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "static/js/2.c55990cf.chunk.js": "/static/js/2.c55990cf.chunk.js",
-    "index.html": "/index.html",
-    "precache-manifest.93f7102e0b147c99646bbf6152ae8313.js": "/precache-manifest.93f7102e0b147c99646bbf6152ae8313.js",
-    "service-worker.js": "/service-worker.js",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/react-redux-todo/static/css/main.b44a4e0c.chunk.css",
+    "main.js": "/react-redux-todo/static/js/main.3adc3dae.chunk.js",
+    "runtime~main.js": "/react-redux-todo/static/js/runtime~main.620750b1.js",
+    "static/js/2.176ffa9b.chunk.js": "/react-redux-todo/static/js/2.176ffa9b.chunk.js",
+    "index.html": "/react-redux-todo/index.html",
+    "precache-manifest.7caef0af13b1536d25083a6a1af6f4b7.js": "/react-redux-todo/precache-manifest.7caef0af13b1536d25083a6a1af6f4b7.js",
+    "service-worker.js": "/react-redux-todo/service-worker.js",
+    "static/media/logo.svg": "/react-redux-todo/static/media/logo.5d5d9eef.svg"
   }
 }

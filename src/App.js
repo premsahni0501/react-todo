@@ -8,7 +8,7 @@ import { Register } from './component/User/Register';
 export class App extends React.Component {
   render(){
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/react-redux-todo">
         <Switch>
           <PrivateRoute exact path={'/'} component={Root} />
           <Route path={'/login'} component={Login}/>
